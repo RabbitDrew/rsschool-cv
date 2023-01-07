@@ -1,1 +1,1 @@
-https://RabbitDrew.github.io/rsschool-cv/
+# https://RabbitDrew.github.io/rsschool-cv/
