@@ -23,3 +23,14 @@
 * I don't have such examples.
 ## Work expirience as Junior Dev
 * I don't have such expirience
+## Example of a code: 
+* I don't have such examples. 
+## Work expirience as Junior Dev
+* I don't have such expirience 
+## Education 
+* Belarussian state economic univercity, logistician 
+* Big apple english classes
+* RS school (in process)  
+## Language skills  
+* English: B2 
+* At this time I have just English classes as practice  
