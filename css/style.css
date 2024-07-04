@@ -246,7 +246,61 @@ ul,li {
 
 /*rograming languages*/
 
+.prog-languages {
+width: 100%;
+min-height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+
+padding: 20px 0 0 0;
+
+gap: 8px;
+
+border-bottom: 0.5px #FFCA79 solid;
+}
+
+.language-title__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages-title {
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
 
 
+.languages-img__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;   
+}
 
+.img-wrapper {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
 
+.img-title {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.img-title__js, .img-title__ts, .word{
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
