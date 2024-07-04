@@ -42,9 +42,9 @@ ul,li {
     list-style-type: none;
 }
 /*/common_styles_for whole_body*/
+
+
 /*header*/
-
-
 .page-header__container {
     width: 100%;
     display: flex;
@@ -381,7 +381,7 @@ ul,li {
 /*education*/
 .container-edu {
     width: 100%;
-    height: 250px;
+    min-height: 250px;
 
     display: flex;
     flex-direction: column;
@@ -415,3 +415,72 @@ ul,li {
 .uppercase {
     text-transform: uppercase;
 }
+/*hobbies*/
+
+.container-hobbies {
+    width: 100%;
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    gap: 8px;
+
+    padding: 20px 0 0 0;
+
+}
+
+.hobbies-wrapper {
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.hobby-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.img-hobby {
+    width: 60px;
+    height: 60px;
+}
+
+.hobby-title {
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+/*footer*/
+
+.page-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555555 ;
+}
+
+.footer___wrapper {
+    max-width: 1440px;
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
