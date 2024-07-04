@@ -73,7 +73,7 @@ ul,li {
         color: #FFCA79 ;
     }
 .header-nav {
-    width: 50%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -149,8 +149,8 @@ ul,li {
 }
 
 .contacts-photo__wrapper {
-    width: 20%;
-    height: 320px;
+    width: 15%;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,6 +198,8 @@ ul,li {
 }
 
 .info {
+ font-size: 15px;
+ font-weight: 400;
  text-transform: capitalize;
  font-weight: 400;
 }
@@ -210,3 +212,41 @@ ul,li {
 } 
 
 /*About_me container*/
+.container-about_me {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    padding: 20px 0 0 0;
+    gap: 8px;
+
+    border-bottom: 0.5px #FFCA79 solid;
+} 
+
+.about_me-title {
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.about_me-article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    text-indent: 20px;
+    line-height: 1.5;
+}
+
+/*rograming languages*/
+
+
+
+
+
