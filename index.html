@@ -15,41 +15,44 @@
 </head>
 
   <body class="page">
-    <header class="page-header">
+    <header class="page-header__container">
+        <div class="container-header">
+            <div class="header-logo">
+                <h1 class="logo-title">c<span class="title-letter">v</span></h1>
+            </div>
 
-        <div class="header-logo">
-            <h1 class="logo-title">c<span class="title-letter">v</span></h1>
+            <nav class="header-nav">
+                <ul class="nav-list"> 
+                    <li class="list-item">
+                        <a class="item-link" href="#contacts">contacts</a>
+                    </li>
+                    <li class="list-item">
+                        <a  class="item-link" href="">about <span class="link-word">me</span></a>
+                    </li>
+                    <li class="list-item">
+                        <a  class="item-link" href="">stack</a>
+                    </li>
+                    <li class="list-item">
+                        <a  class="item-link" href="">work <span class="link-word">expirience</span></a>
+                    </li>
+                    <li class="list-item">
+                        <a  class="item-link" href="">code <span class="link-word">example</span></a>
+                    </li>
+                    <li class="list-item">
+                        <a  class="item-link" href="">education</a>
+                    </li>
+                    <li class="list-item">
+                        <a  class="item-link" href="">hobbies</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
 
-        <nav class="header-nav">
-            <ul class="nav-list"> 
-                <li class="list-item">
-                    <a class="item-link" href="#contacts">contacts</a>
-                </li>
-                <li class="list-item">
-                    <a  class="item-link" href="">about <span class="link-word">me</span>m</a>
-                </li>
-                <li class="list-item">
-                    <a  class="item-link" href="">stack</a>
-                </li>
-                <li class="list-item">
-                    <a  class="item-link" href="">work <span class="link-word">expirience</span></a>
-                </li>
-                <li class="list-item">
-                    <a  class="item-link" href="">code <span class="link-word">example</span></a>
-                </li>
-                <li class="list-item">
-                    <a  class="item-link" href="">education</a>
-                </li>
-                <li class="list-item">
-                    <a  class="item-link" href="">hobbies</a>
-                </li>
-            </ul>
-        </nav>
 
     </header>
 
     <main class="page-container"> 
+
         <section class="container-contacts" id="contats">
 
             <div class="contacts-photo__wrapper">
@@ -62,14 +65,27 @@
                 </div>
 
                 <div class="contacts-info">
-                    <h3 class="info name">name: andrew sparish</h3>
+                    <h3 class="info name">name: andrew <span class="surname">sparish</span></h3>
                     <h3 class="info location">location: minsk belarus</h3>
-                    <h3 class="info phone">phone number: + 37544-576-72-43</h3>
-                    <h3 class="info email">email: Andrei.sp.93@gmail.com</h3>
+                    <h3 class="info phone">phone <span class="transform-none">number:</span> + 37544-576-72-43</h3>
+                    <h3 class="info email">email: Andrei.<span class="transform-none">sp</span>.93@<span class="transform-none">gmail.</span><span class="transform-none">com</span></h3>
                     <h3 class="info git">github: @RabbitDrew</h3>
                     <h3 class="info discord">discord: andreeew6158</h3>
                 </div>
             </div>
+
+        </section>
+
+        <section class="container-about_me">
+             <h2 class="about_me-title">
+                about me
+             </h2>
+            
+            <article class="about_me-article">
+                <p class="article">
+                    It’s interesting for me to learn new things. I’d like to develop new skills, particularly in front-end dev. I’m a hardworking person and I’m capable of doing multitask work. I’ve been working as a sales manager for a private company. My work duties include: Working with customers, purchasing, organization of delivery of products, trading on the commodity exchange.  
+                </p>
+            </article>
         </section>
     </main>
 

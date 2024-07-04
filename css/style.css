@@ -4,6 +4,7 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
+    font-weight: 400;
     color: #fff;
     background-color: #787878;
 
@@ -40,20 +41,28 @@ ul,li {
     margin: 0;
 }
 /*/common_styles_for whole_body*/
+/*header*/
 
-.page-header {
+
+.page-header__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555555 ;
+}
+
+.container-header {
     max-width: 1440px;
     width: 100%;
     height: 40px;
-
     padding: 10px 20px 10px 20px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    background-color: #555555 ;
 }
+
+
 
 .logo-title {
     font-size: 23px;
@@ -120,27 +129,84 @@ ul,li {
     width: 100%;
     background-color: #787878;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 0px 20px 0 20px;
+
 }
 
+
+/*contacts_section*/
 .container-contacts {
   width: 100%;
   display: flex;
   justify-content: start;
   align-items: start ;
-
+  
+  border-bottom: 0.5px #FFCA79 solid;
 }
 
 .contacts-photo__wrapper {
     width: 20%;
     height: 320px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .photo {
-    aspect-ratio: 1/2;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+
+.contacts {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center ;
+    gap: 10px;
+
+}
+
+.contacts-title__container {
+    width: 100%;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contacts-title {
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.contacts-info {
+    width: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.info {
+ text-transform: capitalize;
+ font-weight: 400;
+}
+
+.surname {
+    color: #FFCA79;
+}
+.transform-none{
+    text-transform: none;
+} 
+
+/*About_me container*/
