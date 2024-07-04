@@ -77,9 +77,12 @@
         </section>
           <!--about-me-->
         <section class="container-about_me">
-             <h2 class="about_me-title">
-                about <span class="transform-none" >me</span>
-             </h2>
+            <div class="title-wrapper">
+                <h2 class="title">
+                    about <span class="transform-none" >me</span>
+                 </h2>
+            </div>
+            
             <article class="about_me-article">
                 <p class="article">
                     It’s interesting for me to learn new things. 
@@ -91,11 +94,11 @@
                 </p>
             </article>
         </section>
-          <!--rograming languages-->
+          <!--programing languages-->
         <section class="container-prog_languages">
 
-            <div class="language-title__wrapper">
-                <h2 class="languages-title">programing <span class="transform-none">languages</span></h2>
+            <div class="title-wrapper">
+                <h2 class="title">programing <span class="transform-none">languages</span></h2>
             </div>
             
              
@@ -123,11 +126,11 @@
              </div>
         </section>
 
-        <!--rograming-languages-->
+        <!--expirience-->
         <section class="container-work_exp">
 
-            <div class="work_exp-title__wrapper">
-              <h2 class="exp-title">expirience</h2>
+            <div class="title-wrapper">
+              <h2 class="title">expirience</h2>
             </div>
 
             <ul class="exp-list">
@@ -140,11 +143,66 @@
         <!--code-example-->
         <section class="container-code">
             
-            <div class="container-code__wrapper">
-              <h2 class="code-title">Code <span class="transform-none">example</span></h2>
+            <div class="title-wrapper">
+              <h2 class="title">code <span class="transform-none">example</span></h2>
             </div>
 
-            
+            <article class="code__wrapper">
+                <p class="code">
+                    <code>
+                    function check(str, bracketsConfig) { <br>
+                        let stack = [];<br>
+                        let open = []<br>
+                        let close= []<br>
+                        const pairs = {};<br>
+                        for ( let i = 0; i &lt; bracketsConfig.length; i++) { <br>
+                            if (bracketsConfig[i].includes(bracketsConfig[i][0])) {<br>
+                                open.push(bracketsConfig[i][0])<br>
+                            }<br>
+                            if (bracketsConfig[i].includes(bracketsConfig[i][1])) {<br>
+                                close.push(bracketsConfig[i][1])<br>
+                            }<br>
+                        }<br>
+                        for (let i = 0; i &lt; bracketsConfig.length; i++) {<br>
+                            pairs[bracketsConfig[i][1]] = bracketsConfig[i][0];<br>
+                        }<br>
+                        for (let i = 0; i &lt; str.length; i++) {<br>
+                            let el = str[i];<br>
+                            if (open.includes(el)) {<br>
+                            if (close.includes(el) && pairs[el] === stack[stack.length - 1]) {
+                            stack.pop();<br>
+                            } else {<br>
+                            stack.push(el);<br>
+                            }<br>
+                            } else if (close.includes(el)) {<br>
+                        if (pairs[el] === stack[stack.length - 1]) {<br>
+                            stack.pop();<br>
+                        } else {<br>
+                            return false;<br>
+                        }<br>
+                        }<br>
+                        }<br>
+                        return stack.length === 0;<br>
+                        }<br>
+                    </code>
+                </p>  
+            </article>
+
+        </section>
+        
+        <!--education-->
+        <section class="container-edu">
+
+            <div class="title-wrapper">
+                <h2 class="title">Education</h2>
+            </div>
+
+            <ul class="education_wrapper">
+                <li class="edu_item">belarussian <span class="transform-none">state economic univercity, logistician</span></li>
+                <li class="edu_item">big <span class="transform-none">apple english classes (in process)</span></li>
+                <li class="edu_item"><span class="uppercase">rs</span> <span class="transform-none">school (in process)</span></li>
+            </ul>
+
         </section>
 
     </main>
