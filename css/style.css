@@ -151,6 +151,7 @@ ul,li {
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
+    border-bottom: 0.5px #FFCA79 solid;
 }
 
 .transform-none{
@@ -189,7 +190,7 @@ ul li::marker {
 
 
 .contacts {
-    width: 75%;
+    width: 64%;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -200,9 +201,9 @@ ul li::marker {
 
 .contacts-title__container {
     width: 100%;
-    padding: 20px 0 0 0;
+    padding: 20px 0 0 20px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     
 }
@@ -211,6 +212,7 @@ ul li::marker {
     font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
+    border-bottom: 0.5px #FFCA79 solid;
 }
 
 .contacts-info {
