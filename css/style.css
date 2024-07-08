@@ -66,7 +66,7 @@ ul,li {
 
 
 .logo-title {
-    font-size: 26px;
+    font-size: 23px;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -76,7 +76,7 @@ ul,li {
     }
 
 .header-nav {
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -120,6 +120,11 @@ ul,li {
 }
 
 
+/*adopt_btn*/
+.hide_adopt_btn {
+    display: none;
+}
+
 /*main*/
 
 .page-container {
@@ -143,7 +148,7 @@ ul,li {
 }
 
 .title {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -151,6 +156,11 @@ ul,li {
 .transform-none{
     text-transform: none;
 } 
+
+
+ul li::marker {
+    color: #FFCA79; 
+}
 
 /*contacts_section*/
 .container-contacts {
@@ -163,7 +173,7 @@ ul,li {
 }
 
 .contacts-photo__wrapper {
-    width: 15%;
+    width: 200px;
     height: 250px;
     display: flex;
     align-items: center;
@@ -179,7 +189,7 @@ ul,li {
 
 
 .contacts {
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -198,7 +208,7 @@ ul,li {
 }
 
 .contacts-title {
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -233,7 +243,7 @@ ul,li {
     justify-content: start;
     align-items: center;
 
-    padding: 20px 0 0 0;
+    padding: 20px 0 5px 0;
     gap: 8px;
 
     border-bottom: 0.5px #FFCA79 solid;
@@ -247,11 +257,13 @@ ul,li {
 }
 
 .article {
+    font-size: 15px;
+    font-weight: 400;
     text-indent: 20px;
     line-height: 1.5;
 }
 
-/*programing languages*/
+/*skills*/
 .container-prog_languages{
     width: 100%;
     min-height: 250px;
@@ -260,7 +272,7 @@ ul,li {
     justify-content: start;
     align-items: center;
 
-    padding: 20px 0 0 0;
+    padding: 20px 0 5px 0;
 
     gap: 8px;
 
@@ -277,8 +289,8 @@ ul,li {
 }
 
 .img-wrapper {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,7 +319,7 @@ ul,li {
     justify-content: start;
     align-items: center;
 
-    padding: 20px 0 0 0;
+    padding: 20px 0 5px 0;
 
     gap: 8px;
 
@@ -321,6 +333,8 @@ ul,li {
  flex-direction: column;
  justify-content: center;
  align-items: start;
+
+ padding:  0 0 0 20px;
 }
 
 .item-link_exp {
@@ -335,6 +349,7 @@ ul,li {
     border-bottom: 0.5px solid ;
     border-bottom-color: #787878;
     transition: border-bottom-color .2s ease-in;
+    list-style-type: disc;
 }
 
 .list-item__exp:hover {
@@ -342,7 +357,6 @@ ul,li {
 }
 
 /*code example*/
-
 .container-code{
     width: 100%;
     min-height: 250px;
@@ -397,7 +411,7 @@ ul,li {
 
     gap: 8px;
 
-    padding: 20px 0 0 0;
+    padding: 20px 0 5px 0;
 
     border-bottom: 0.5px #FFCA79 solid;
 }
@@ -411,13 +425,17 @@ ul,li {
     align-items: start;
     gap: 8px;
 
+    padding: 0 0 0 20px;
+
 }
 
 .edu_item {
     font-size: 15px;
     font-weight: 400;
     text-transform: capitalize;
+    list-style-type: disc;
 }
+
 
 .uppercase {
     text-transform: uppercase;
@@ -433,9 +451,10 @@ ul,li {
     justify-content: start;
     align-items: start;
 
+    padding: 20px 0 5px 0;
+
     gap: 8px;
 
-    padding: 20px 0 0 0;
 
 }
 
@@ -459,8 +478,8 @@ ul,li {
 }
 
 .img-hobby {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .hobby-title {
@@ -497,7 +516,7 @@ ul,li {
 }
 
 .date {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
 }

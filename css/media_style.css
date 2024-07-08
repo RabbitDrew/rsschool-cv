@@ -1,0 +1,247 @@
+@media screen and  (min-width: 640px) and (max-width: 1024px) {
+    /*header*/
+     /*adopt_menu*/
+    .hide_nav_panel {
+        display: none;
+    }
+
+    .hide_adopt_btn {
+        display: flex;
+    }
+
+    .header-adopt__btn {
+        width: 35px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 3px;
+
+    }
+    .adopt-line {
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+    }
+    .adopt-line:nth-child(2) {
+        background-color: #FFCA79;
+    }
+
+    
+}
+
+
+
+
+@media screen and  (min-width: 380px) and (max-width: 639px) {
+    /*header*/
+     /*adopt_menu*/
+    .hide_nav_panel {
+        display: none;
+    }
+
+    .hide_adopt_btn {
+        display: flex;
+    }
+
+    .header-adopt__btn {
+        width: 35px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 3px;
+
+    }
+    .adopt-line {
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+    }
+    .adopt-line:nth-child(2) {
+        background-color: #FFCA79;
+    }
+
+
+    /*contacts section*/
+    .container-contacts  {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        padding: 0 0 5px 0;
+    }
+
+    .contacts-photo__wrapper {
+        width: 150px;
+        height: 200px;
+    }
+    
+    .contacts {
+        width: 100%;
+    }
+
+    .contacts-info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*about me*/
+    .container-about_me {
+      
+    }
+
+
+    /*skills*/
+
+    .languages-img__wrapper {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;  
+      }
+
+}
+
+
+
+@media screen and  (min-width: 320px) and (max-width: 379px) {
+    
+    /*header*/
+     /*adopt_menu*/
+    .hide_nav_panel {
+        display: none;
+    }
+
+    .hide_adopt_btn {
+        display: flex;
+    }
+
+    .header-adopt__btn {
+        width: 35px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 3px;
+
+    }
+    .adopt-line {
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+    }
+    .adopt-line:nth-child(2) {
+        background-color: #FFCA79;
+    }
+
+
+    /*contacts section*/
+    .container-contacts  {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        padding: 0 0 5px 0;
+    }
+
+    .contacts-photo__wrapper {
+        width: 150px;
+        height: 200px;
+    }
+    
+    .contacts {
+        width: 100%;
+    }
+
+    .contacts-info {
+        justify-content: center;
+        align-items: center;
+    }
+    /*skills*/
+
+    .languages-img__wrapper {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;  
+      }
+   /*code example*/
+      .code {
+        font-size: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 319px) {
+    
+
+    /*header*/
+     /*adopt_menu*/
+    .hide_nav_panel {
+        display: none;
+    }
+
+    .hide_adopt_btn {
+        display: flex;
+    }
+
+    .header-adopt__btn {
+        width: 35px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 3px;
+
+    }
+    .adopt-line {
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+    }
+    .adopt-line:nth-child(2) {
+        background-color: #FFCA79;
+    }
+
+
+    /*contacts section*/
+    .container-contacts  {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        padding: 0 0 5px 0;
+    }
+
+    .contacts-photo__wrapper {
+        width: 150px;
+        height: 200px;
+    }
+    
+    .contacts {
+        width: 100%;
+    }
+
+    .contacts-info {
+        justify-content: center;
+        align-items: center;
+    }
+    /*skills*/
+
+    .languages-img__wrapper {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;  
+      }
+
+      .code {
+        font-size: 10px;
+    }
+
+
+}
+
