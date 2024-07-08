@@ -74,6 +74,11 @@
         padding: 0 0 5px 0;
     }
 
+    .contacts-title__container {
+        justify-content: center;
+        padding: 20px 0 0 0;
+    }
+
     .contacts-photo__wrapper {
         width: 150px;
         height: 200px;
@@ -88,12 +93,7 @@
         align-items: center;
     }
 
-    /*about me*/
-    .container-about_me {
-      
-    }
-
-
+  
     /*skills*/
 
     .languages-img__wrapper {
@@ -145,6 +145,11 @@
         align-items: center;
 
         padding: 0 0 5px 0;
+    }
+
+    .contacts-title__container {
+        justify-content: center;
+        padding: 20px 0 0 0;
     }
 
     .contacts-photo__wrapper {
@@ -215,6 +220,12 @@
         align-items: center;
 
         padding: 0 0 5px 0;
+    }
+
+
+    .contacts-title__container {
+        justify-content: center;
+        padding: 20px 0 0 0;
     }
 
     .contacts-photo__wrapper {
